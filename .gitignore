@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+myenv/
+
+# Large datasets
+datasets/raw/
+datasets/processed/
+datasets/final/
+datasets/meta/
+datasets/spread/
+
+# Dataset files
+*.csv
+*.parquet
+*.json
+
+# Trained model files
+models/
+*.pkl
+*.pth
+*.pt
+*.onnx
+*.cbm
+
+# Generated model/training state
+model/0.0_cache_data
+model/0.0_config.yml
+model/0.0_state
+model/history.txt
+
+# CatBoost generated files
+catboost_info/
+
+# Generated results
+results/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
